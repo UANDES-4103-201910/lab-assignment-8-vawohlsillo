@@ -1,0 +1,53 @@
+/* Define your CSS styles here */
+/* Remember to validate your CSS at https://jigsaw.w3.org/css-validator/ */
+
+html {
+	background-color: #000;
+}
+
+#kcontainer {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.keyboard_row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex: 1;
+	width: 100%;
+}
+
+.key {
+	font-family: sans-serif;
+	background-color: #aaa;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	margin: 5px;
+	border-radius: 5px;
+	white-space: nowrap;
+	flex: 1;
+	height: auto;
+}
+
+.key:active {
+    background-color: #eaeaea;
+}
+
+.key-space {
+	flex: 8 0 auto;
+}
+
+.key-special {
+	background-color: #ff9900;
+}
+
+.key-wide {
+	flex: 2 0 auto;
+}
