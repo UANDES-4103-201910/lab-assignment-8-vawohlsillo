@@ -11,7 +11,8 @@ $(document).ready(function(){
 	});
 	$(".key").click(function(){
 		console.log($(this).text());
+		//return $('#textbox').val($('#textbox').val()+$(this).text());
 	});
-	
+
 
 });
